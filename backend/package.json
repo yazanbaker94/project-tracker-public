@@ -8,6 +8,7 @@
     "start": "node dist/index.js",
     "dev": "nodemon src/index.ts",
     "init-db": "ts-node src/utils/initDatabase.ts",
+    "init-production-db": "ts-node src/utils/initProductionDatabase.ts",
     "migrate:organizations": "ts-node src/utils/runMigration.ts",
     "migrate:analytics": "ts-node src/utils/runAnalyticsMigration.ts",
     "migrate:ingestion": "ts-node src/utils/runIngestionMigration.ts",
